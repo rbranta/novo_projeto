@@ -10,7 +10,7 @@ class Taboada
 end
 
 
-p "informe o valor a ser multiplicado por 10:"
+p "informe o valor a ser multiplicado na tabela de 10:"
 num = gets.chomp
 
 if num =~ /^[0-9]+$/
