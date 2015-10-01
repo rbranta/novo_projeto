@@ -22,3 +22,10 @@ if num =~ /^[0-9]+$/
     cont = cont + 1
   end
 end
+
+
+p "informe o numero a ser multiplicado na tabela de 10"
+numeroM = gets.chomp
+
+numeroM.to_i.upto(numeroM.to_i) { |multiplicador1| 1.upto(10) {|multiplicador2|
+p "#{multiplicador1} * #{multiplicador2} = #{multiplicador2 * numeroM.to_i}" } }
